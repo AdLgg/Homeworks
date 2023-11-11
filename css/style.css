@@ -1,0 +1,32 @@
+html {
+  font-family: Pacifico;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #909090;
+  text-align: center;
+}
+
+img {
+  width: 90%;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.title {
+  color: #303030;
+  font-weight: 700;
+}
+
+.card {
+  max-width: 300px;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(50, 50, 100, 0.25);
+  margin: 25px 10px;
+  display: inline-block;
+}
+
+.detail {
+  margin-left: 150px;
+  color: blue;
+}
