@@ -1,0 +1,30 @@
+.container {
+  max-width: 950px;
+  margin: auto;
+  border: 2px solid;
+  box-shadow: 0 0 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.calendar {
+  border: 2px solid;
+  margin: 5px 5px 5px 5px;
+}
+
+table,
+tr,
+td,
+th {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 0.2;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
