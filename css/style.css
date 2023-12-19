@@ -1,0 +1,277 @@
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+:root {
+  --primary-color: #81a36b;
+  --text-color: #161616;
+  --bg-light: #d8d8d6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-light);
+}
+
+html {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* ------------------ HEADER --------------------------------------------------------------------------------------- */
+
+.nav-link {
+  text-align: center;
+  margin-right: 90px;
+}
+
+.nav-bar {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.logo {
+  color: #161616;
+  font-family: Vetrino;
+  font-size: 36px;
+  margin-right: 130px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+/* ------------------ FIRST-SECTION --------------------------------------------------------------------------------------- */
+
+.white-flower {
+  width: 45%;
+  float: right;
+}
+
+.title {
+  font-family: Vetrino;
+  font-size: 62px;
+  width: 50%;
+  margin-top: 178px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.buttons {
+  width: 60%;
+}
+
+.buy {
+  background-color: var(--primary-color);
+  padding: 3% 7%;
+  cursor: pointer;
+  border: none;
+  margin-right: 65px;
+  margin-top: 40px;
+}
+
+.help {
+  padding: 2.7% 5%;
+  border: 2px solid;
+  border-color: var(--primary-color);
+  background: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.text {
+  margin-top: 60px;
+  width: 50%;
+}
+
+/* ------------------ ABOUT-SECTION --------------------------------------------------------------------------------------- */
+
+.about {
+  width: 540px;
+}
+
+.about-title {
+  color: #000;
+  font-family: Vetrino;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.about-text {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* ------------------ ICONS-SECTION --------------------------------------------------------------------------------------- */
+
+.icons-section {
+  background-color: var(--primary-color);
+  padding: 5%;
+  margin-top: 120px;
+}
+
+.text-icons {
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.icon {
+  padding-bottom: 20px;
+}
+
+.icons-row {
+  width: 150%;
+}
+
+.columns {
+  columns: 5;
+  text-align: center;
+  column-gap: 100px;
+}
+
+/* ------------------ SECOND-SECTION --------------------------------------------------------------------------------------- */
+
+.second-title {
+  text-align: center;
+  font-family: Vetrino;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 300px;
+}
+
+.yellow-flower {
+  width: 100%;
+  padding-right: 30px;
+  margin-top: 120px;
+  float: left;
+}
+
+.second-text {
+  padding-top: 60px;
+  width: 540px;
+}
+
+/* ------------------ CARDS-SECTION --------------------------------------------------------------------------------------- */
+
+.cards-title {
+  text-align: center;
+  font-family: Vetrino;
+  font-size: 32px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.third-title {
+  font-family: Vetrino;
+  font-size: 32px;
+  text-align: center;
+  color: var(--text-color);
+  margin: 120px 0 80px 0;
+}
+
+.card {
+  color: var(--primary-color);
+  background-color: var(--primary-color);
+  border: 10px solid;
+  width: 350px;
+  height: 510px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-title {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.image {
+  width: 100%;
+}
+
+/* ------------------ FOOTER --------------------------------------------------------------------------------------- */
+
+.row {
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1130px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-top: 120px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 390px;
+}
+
+.col {
+  height: 200px;
+  margin-top: 60px;
+}
+
+.col2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.mini-text {
+  margin-top: 20px;
+}
+
+.footer-title {
+  font-family: Vetrino;
+  font-size: 36px;
+  text-align: center;
+}
+
+.data {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
