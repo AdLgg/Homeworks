@@ -42,6 +42,11 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
+
+.float-right {
+  float: right;
+}
+
 /* ------------------ HEADER --------------------------------------------------------------------------------------- */
 
 .header {
@@ -63,7 +68,6 @@ a {
   padding: 19px 40px 20px 20px;
   align-items: flex-start;
   gap: 40px;
-  flex-shrink: 0;
   color: #222;
 }
 
@@ -91,7 +95,6 @@ a {
 
 .header-blog {
   color: #222;
-  font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   line-height: 19.6px;
@@ -99,14 +102,9 @@ a {
 
 .nav-color {
   color: #222;
-  font-family: Inter;
   font-size: 17px;
   font-weight: 400;
   line-height: 19.6px;
-}
-
-.float-right {
-  float: right;
 }
 
 /* ------------------ FIRST-SECTION --------------------------------------------------------------------------------------- */
@@ -117,7 +115,6 @@ a {
 }
 
 .discover {
-  color: #000;
   font-family: STSong;
   font-size: 88px;
   font-weight: 300;
@@ -125,7 +122,6 @@ a {
 }
 
 .beauty {
-  color: #000;
   font-family: STSong;
   font-size: 81px;
   font-weight: 300;
@@ -134,11 +130,9 @@ a {
 }
 
 .you {
-  color: #68513f;
   text-align: right;
   font-family: Style Script;
   font-size: 175px;
-  font-weight: 400;
   line-height: 182px;
   position: absolute;
   transform: rotate(5.539deg);
@@ -147,10 +141,7 @@ a {
 }
 
 .first-button {
-  color: #68513f;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 19.6px;
   border: 1px solid #dacec6;
   background: #f1ebe7;
   display: inline-block;
@@ -196,24 +187,18 @@ a {
 }
 
 .skincare {
-  color: #68513f;
   text-align: center;
   font-family: Style Script;
   font-size: 137px;
-  font-weight: 400;
   line-height: 112px;
   transform: rotate(-5.079deg);
   margin-bottom: 18px;
 }
 
 .second-text {
-  color: #000;
   text-align: center;
   font-family: Inter;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.6px;
   width: 649px;
   margin-bottom: 47px;
 }
@@ -242,9 +227,21 @@ a {
 }
 
 .image3 {
+  right: 27%;
+  top: 2%;
   position: absolute;
-  left: 20%;
-  bottom: 26%;
+}
+
+.image4 {
+  position: absolute;
+  right: 20%;
+  top: 28%;
+}
+
+.image5 {
+  position: absolute;
+  right: 23%;
+  bottom: 17%;
 }
 
 /* ------------------ CARDS-SECTION --------------------------------------------------------------------------------------- */
@@ -267,16 +264,13 @@ a {
 
 .product {
   margin-top: 90px;
-  color: #68513f;
   text-align: center;
   font-family: Style Script;
   font-size: 137px;
-  font-weight: 400;
   line-height: 112px;
 }
 
 .healthy {
-  color: var(--text-color);
   text-align: center;
   font-family: STSong;
   font-size: 65px;
@@ -304,46 +298,29 @@ a {
 }
 
 .name {
-  color: #000;
-  font-family: Inter;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px;
 }
 
 .name1 {
-  font-family: Inter;
   font-size: 20px;
-  font-weight: 400;
   line-height: 26px;
   width: 205px;
 }
 
 .type {
-  color: #000;
-  font-family: Inter;
   font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.6px;
   text-transform: uppercase;
 }
 
 .price {
-  color: #000;
-  font-family: Inter;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 19.5px;
 }
 
 .card-button {
   text-align: center;
-  font-family: Inter;
   font-size: 14px;
-  line-height: 19.6px;
   border-radius: 5px;
   border: 1px solid #dacec6;
   background-color: #f1ebe7;
@@ -469,7 +446,6 @@ a {
 
 .feature-text {
   text-align: center;
-  font-family: Inter;
   font-size: 17px;
   line-height: 30.6px;
   margin-bottom: 39px;
@@ -477,11 +453,8 @@ a {
 }
 
 .read-more {
-  color: #68513f;
   text-align: center;
-  font-family: Inter;
   font-size: 14px;
-  line-height: 19.6px;
   border: 1px solid #dacec6;
   background: #f1ebe7;
   display: inline-flex;
@@ -514,12 +487,9 @@ a {
 }
 
 .brand-text {
-  color: #000;
   text-align: center;
   font-family: Inter;
   font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 39.2px;
   width: 832px;
   margin-bottom: 56px;
@@ -540,7 +510,6 @@ a {
 
 .bg-text1 {
   color: #fff;
-  font-family: Inter;
   font-size: 13px;
   text-transform: uppercase;
   position: absolute;
@@ -556,7 +525,6 @@ a {
 
 .bg-text2 {
   color: #fff;
-  font-family: Inter;
   font-size: 13px;
   line-height: 19.6px;
   text-transform: uppercase;
@@ -573,7 +541,6 @@ a {
 
 .bg-text3 {
   color: #fff;
-  font-family: Inter;
   font-size: 13px;
   line-height: 19.6px;
   text-transform: uppercase;
@@ -618,7 +585,6 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 29.5px;
-  flex-shrink: 0;
 }
 
 .row {
@@ -639,7 +605,6 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 58px;
-  flex-shrink: 0;
 }
 
 .blog2 {
@@ -651,11 +616,9 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 95px;
-  flex-shrink: 0;
 }
 
 .blog-text1 {
-  color: #000;
   font-family: STSong;
   font-size: 28px;
   font-weight: 300;
@@ -663,7 +626,6 @@ a {
 }
 
 .blog-text2 {
-  color: #000;
   font-family: STSong;
   font-size: 27px;
   font-weight: 300;
@@ -671,7 +633,6 @@ a {
 }
 
 .blog-button {
-  font-family: Inter;
   font-size: 14px;
   border-radius: 166px;
   border: 1px solid #dacec6;
@@ -688,29 +649,17 @@ a {
 
 .px13text {
   color: #000;
-  font-family: Inter;
   font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.6px;
 }
 
 .px14text {
   color: #000;
-  font-family: Inter;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.6px;
 }
 
 .px14textb {
   color: var(--primary-color);
-  font-family: Inter;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19.6px;
 }
 
 .indent {
@@ -728,7 +677,6 @@ a {
 
 .web {
   display: inline-flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -739,6 +687,14 @@ a {
 .skinn-text {
   margin-bottom: 57px;
   font-size: 14px;
+}
+
+.designedby {
+  width: 89px;
+}
+
+.poweredby {
+  width: 86px;
 }
 
 /*------------------- FOOTER-PAGES ---------------------------------------*/
@@ -768,7 +724,6 @@ a {
 }
 
 .head-pages {
-  color: #000;
   font-family: STSong;
   font-size: 24px;
   font-style: normal;
@@ -799,7 +754,6 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 9px;
-  flex-shrink: 0;
 }
 
 .email {
