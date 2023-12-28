@@ -32,6 +32,7 @@ html {
   width: 100%;
   max-width: 1340px;
   margin: auto;
+  position: relative;
 }
 
 .color-primary {
@@ -159,10 +160,6 @@ a {
 
 /* ------------------ SECOND-SECTION --------------------------------------------------------------------------------------- */
 
-.second-section {
-  position: relative;
-}
-
 .shopall {
   display: flex;
   flex-direction: column;
@@ -217,30 +214,30 @@ a {
 .image1 {
   position: absolute;
   top: 12%;
-  left: 17.5%;
+  left: 3%;
 }
 
 .image2 {
   position: absolute;
-  left: 20%;
+  left: 7%;
   bottom: 26%;
 }
 
 .image3 {
-  right: 27%;
+  right: 16%;
   top: 2%;
   position: absolute;
 }
 
 .image4 {
   position: absolute;
-  right: 20%;
+  right: 5.5%;
   top: 28%;
 }
 
 .image5 {
   position: absolute;
-  right: 23%;
+  right: 11.3%;
   bottom: 17%;
 }
 
@@ -514,7 +511,7 @@ a {
   text-transform: uppercase;
   position: absolute;
   top: 35%;
-  left: 18%;
+  left: 5%;
   border: 1px solid #fff;
   width: 150px;
   height: 150px;
@@ -530,7 +527,7 @@ a {
   text-transform: uppercase;
   position: absolute;
   top: 35%;
-  right: 46.5%;
+  right: 45%;
   border: 1px solid #fff;
   width: 150px;
   height: 150px;
@@ -546,7 +543,7 @@ a {
   text-transform: uppercase;
   position: absolute;
   top: 35%;
-  right: 19.3%;
+  right: 6.5%;
   border: 1px solid #fff;
   width: 150px;
   height: 150px;
@@ -642,7 +639,7 @@ a {
 
 /* ------------------ FOOTER --------------------------------------------------------------------------------------- */
 
-.footer {
+.fill {
   border-radius: 10px;
   background: #e7ded8;
 }
@@ -664,7 +661,7 @@ a {
 
 .indent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 50px 50px 50px;
 }
 
